@@ -19,7 +19,7 @@ async function createDB() {
                 }
             }
         });
-        showResult("Banco de dados aberto.");
+        showResult("Banco de dados aberto 👍");
     } catch (e) {
         showResult("Erro ao criar o banco de dados: " + e.message)
     }
